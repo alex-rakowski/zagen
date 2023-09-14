@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/miniconda
 {
-	"name": "py4dstem-dev",
+	"name": "zagen",
 	"image": "mcr.microsoft.com/vscode/devcontainers/miniconda:0-3",
 	// "build": { 
 	// 	"context": "..",
@@ -15,7 +15,7 @@
 	// "forwardPorts": []
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "/opt/conda/bin/conda init && /opt/conda/bin/pip install -e /workspaces/colaboration_template/ && /opt/conda/bin/pip install ipython ipykernel jupyter",
+	"postCreateCommand": "/opt/conda/bin/conda init && /opt/conda/bin/pip install -e /workspaces/zone_axis_generator/ && /opt/conda/bin/pip install ipython ipykernel jupyter",
 	
 	// Configure tool-specific properties.
 	"customizations": {
